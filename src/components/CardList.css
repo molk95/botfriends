@@ -1,0 +1,5 @@
+.CardComponent {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+}

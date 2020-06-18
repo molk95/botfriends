@@ -1,13 +1,14 @@
 import React from 'react'
 import { Card } from './Card'
+import './CardList.css'
 
 export const CardList = ({Data}) => {
-    const cardComponents = Data.map((user,i)=>{
-        return <Card id={Data[i].id} name={Data[i].name} email={Data[i].email} />
+    const cardArray = Data.map((user,i)=>{
+        return <Card key={i} id={Data[i].id} name={Data[i].name} email={Data[i].email} />
     })
     return (
-        <div>
-            {cardComponents}
+        <div className="CardComponent" >
+            {cardArray}
         </div>
     )
 }
