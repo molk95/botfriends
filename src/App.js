@@ -16,7 +16,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1>RoboFriends</h1>
+        <h1 className="title" >RoboFriends</h1>
         <FilterBots filterFriends={this.filterOnChange} />
         <CardList
           robotFriends={this.state.robotFriends.filter((robot) => {
