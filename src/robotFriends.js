@@ -1,4 +1,25 @@
 export const robotFriends = [
+    
+    {
+        id:6,
+        name: "Ahmed",
+        email:'robotAhmed@exemple.com'
+    },
+    {
+        id:7,
+        name: "Nada",
+        email:'robotNada@exemple.com'
+    },
+    {
+        id:8,
+        name: "Molk",
+        email:'robotMolk@exemple.com'
+    },
+    {
+        id:9,
+        name: "Wissem",
+        email:'robotWissem@exemple.com'
+    },
     {
         id:1,
         name: "Ali",
@@ -25,23 +46,8 @@ export const robotFriends = [
         email:'robotHajer@exemple.com'
     },
     {
-        id:6,
-        name: "Ahmed",
-        email:'robotAhmed@exemple.com'
-    },
-    {
-        id:7,
-        name: "Nada",
-        email:'robotNada@exemple.com'
-    },
-    {
-        id:8,
-        name: "Molk",
-        email:'robotMolk@exemple.com'
-    },
-    {
-        id:9,
-        name: "Wissem",
-        email:'robotWissem@exemple.com'
+        id:10,
+        name: "Mariem",
+        email:'robotMariem@exemple.com'
     },
 ]
