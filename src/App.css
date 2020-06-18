@@ -36,7 +36,7 @@
   flex-direction: column;
 }
 .card:hover{
-  transform: translateY();
+  transform: translateY(-2%);
 }
 .contact {
   color: #ccc;
