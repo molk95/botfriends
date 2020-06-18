@@ -1,9 +1,9 @@
 import React from 'react'
-import './Card.css'
+
 
 export const Card = ({id,name,email}) => {
     return (
-        <div className='card'>
+        <div className='card grow'>
             <img src={`https://robohash.org/ ${id}`} alt="RandomRobot" />
             <div className='contact' >
                 <h2>{name}</h2>

@@ -1,14 +1,20 @@
-import React from 'react'
-import { Card } from './Card'
-import './CardList.css'
+import React from "react";
+import { Card } from "./Card";
 
-export const CardList = ({Data}) => {
-    const cardArray = Data.map((user,i)=>{
-        return <Card key={i} id={Data[i].id} name={Data[i].name} email={Data[i].email} />
-    })
-    return (
-        <div className="CardComponent" >
-            {cardArray}
-        </div>
-    )
-}
+
+export const CardList = ({ robotFriends }) => {
+  return (
+    <div className="CardComponent">
+      {robotFriends.map((user, i) => {
+        return (
+          <Card
+            key={i}
+            id={robotFriends[i].id}
+            name={robotFriends[i].name}
+            email={robotFriends[i].email}
+          />
+        );
+      })}
+    </div>
+  );
+};
