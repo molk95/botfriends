@@ -1,12 +1,14 @@
-import React from 'react'
-import { Card } from './components/Card'
-import './App.css'
+import React from "react";
+import "./App.css ";
+import { CardList } from "./components/CardList";
+import { Data } from "./Data";
+
 function App() {
   return (
     <div>
-      <Card />
+      <CardList Data={Data} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
