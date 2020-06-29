@@ -7,11 +7,11 @@ import App from "./containers/App";
 import * as serviceWorker from "./serviceWorker";
 import { searchRobots } from "./reducers";
 
-const store = createStore(rootReducer);
+const store = createStore(searchRobots);
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+    <App />
     </Provider>
   </React.StrictMode>,
   document.getElementById("root")

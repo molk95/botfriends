@@ -17,7 +17,7 @@
   font-family: "SEGA LOGO FONT";
   font-size: 50px;
   font-weight: 900;
-  color: teal;
+  color: #008080;
   padding: 30px;
 }
 
@@ -64,6 +64,7 @@
 }
 .spinner {
   background-color: white;
+  padding: 20rem;
 }
 
 .loading{
