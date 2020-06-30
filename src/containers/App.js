@@ -23,6 +23,7 @@ const mapDispatchToProps = (dispatch) => {
 class App extends Component {
   state = {
     robotFriends: [],
+   
     
   };
   
@@ -32,14 +33,14 @@ class App extends Component {
       .then((users) => {this.setState({ robotFriends: users })});
   }
   render() {
-    const { robotFriends } = this.state;
+    const { robotFriends } = this.state; 
     const {  searchField, onSearchChange } = this.props;
     return !robotFriends.length ? (
       <Loading />
     ) : (
       <div className="container">
         <h1 className="title">botFriends</h1>
-        <FilterBots filterFriends={onSearchChange} />
+        <FilterBots searchChange={onSearchChange} />
 
         <CardList
           robotFriends={robotFriends.filter((robot) => {
