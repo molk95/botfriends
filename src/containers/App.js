@@ -5,36 +5,30 @@ import { FilterBots } from "../components/FilterBots";
 import Loading from "../components/Loading";
 import "./App.css";
 
-import { setSearchField } from "../actions";
+import { setSearchField, requestRobots } from "../actions";
 
 const mapStateToProps = (state) => {
   return {
-    searchField: state.searchField,
+    searchField: state.searchRobots.searchField,
+    robotFriends: state.requestRobots.robotFriends,
+    isPending: state.requestRobots.isPending,
+    error: state.requestRobots.error,
   };
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
     onSearchChange: (event) => dispatch(setSearchField(event.target.value)),
+    onRequestRobots: () => dispatch(requestRobots()), //action
   };
 };
 
-
 class App extends Component {
-  state = {
-    robotFriends: [],
-   
-    
-  };
-  
   componentDidMount() {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then((response) => response.json())
-      .then((users) => {this.setState({ robotFriends: users })});
+    this.props.onRequestRobots();
   }
   render() {
-    const { robotFriends } = this.state; 
-    const {  searchField, onSearchChange } = this.props;
+    const { searchField, onSearchChange, robotFriends, isPending } = this.props;
     return !robotFriends.length ? (
       <Loading />
     ) : (
