@@ -19,7 +19,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     onSearchChange: (event) => dispatch(setSearchField(event.target.value)),
-    onRequestRobots: () => dispatch(requestRobots()), //action
+    onRequestRobots: () => dispatch(requestRobots()) //action
   };
 };
 
@@ -29,7 +29,9 @@ class App extends Component {
   }
   render() {
     const { searchField, onSearchChange, robotFriends, isPending } = this.props;
-    return !robotFriends.length ? (
+    // return !isPending ? 
+    return !robotFriends.length ? 
+     (
       <Loading />
     ) : (
       <div className="container">
