@@ -19,7 +19,7 @@ export const searchRobots = (state = initialStateSearch, action = {}) => {
 };
 
 const initialStateRobots = {
-  isPending: false,
+  isPending: true,
   robotFriends: [],
   
 };
@@ -29,7 +29,7 @@ export const requestRobots = (state = initialStateRobots, action = {}) => {
     case REQUEST_ROBOTS_PENDING:
       return { ...state, isPending: true };
     case REQUEST_ROBOTS_SUCCESS:
-      return { ...state, robotFriends: action.payload, isPending: false };
+      return { ...state, robotFriends: action.payload, isPending: true };
     case REQUEST_ROBOTS_FAILED:
       return { ...state, error: action.payload, isPending: false };
     default:

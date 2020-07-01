@@ -29,8 +29,8 @@ class App extends Component {
   }
   render() {
     const { searchField, onSearchChange, robotFriends, isPending } = this.props;
-    // return !isPending ? 
-    return !robotFriends.length ? 
+    return !isPending ? 
+    // return !robotFriends.length ? 
      (
       <Loading />
     ) : (
