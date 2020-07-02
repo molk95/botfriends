@@ -23,7 +23,7 @@
 }
 
 .card {
-  background-color: teal;
+  background-color: #008080;
   border: 3px;
   margin: 30px;
   padding: 10px;
@@ -40,7 +40,7 @@
   transform: translateY(-2%);
 }
 .contact {
-  color: #ccc;
+  color: #003838;
 }
 
 .CardComponent {
@@ -60,11 +60,11 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  background-color: rgba(0, 128, 128, 0.521);
-  color: #ccc;
+  background-color: #d56100;
+  color: #003838;
 }
 .spinner {
-  background-color: white;
+  background-color: #d56100;
   padding: 20rem;
 }
 
