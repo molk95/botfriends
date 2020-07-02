@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export const Card = ({id,name,email}) => {
+export const Card = ({id,name,email,po}) => {
     return (
         <div className='card'>
             <div>
