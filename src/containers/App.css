@@ -19,10 +19,14 @@ h1 {
   font-family: "SEGA LOGO FONT";
   font-size: 4vw;
   font-weight: 900;
-  color: #19A974;
+  color: #ffffff;
   padding: 30px;
 }
 
+.filterBots{
+  font-size: .1vw;
+  color: #ffffff;
+}
 
 .spinner {
   background-color: white;
