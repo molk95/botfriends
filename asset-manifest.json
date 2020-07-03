@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/botfriends/static/css/main.6ebf1c3d.chunk.css",
-    "main.js": "/botfriends/static/js/main.505fe9f2.chunk.js",
-    "main.js.map": "/botfriends/static/js/main.505fe9f2.chunk.js.map",
+    "main.js": "/botfriends/static/js/main.53ea2852.chunk.js",
+    "main.js.map": "/botfriends/static/js/main.53ea2852.chunk.js.map",
     "runtime-main.js": "/botfriends/static/js/runtime-main.a50933a2.js",
     "runtime-main.js.map": "/botfriends/static/js/runtime-main.a50933a2.js.map",
     "static/js/2.d8e4eb28.chunk.js": "/botfriends/static/js/2.d8e4eb28.chunk.js",
     "static/js/2.d8e4eb28.chunk.js.map": "/botfriends/static/js/2.d8e4eb28.chunk.js.map",
     "index.html": "/botfriends/index.html",
-    "precache-manifest.556bb8a82f282cfec92157b0041c4380.js": "/botfriends/precache-manifest.556bb8a82f282cfec92157b0041c4380.js",
+    "precache-manifest.ea74e93d877e34139249387888df7ebd.js": "/botfriends/precache-manifest.ea74e93d877e34139249387888df7ebd.js",
     "service-worker.js": "/botfriends/service-worker.js",
     "static/css/main.6ebf1c3d.chunk.css.map": "/botfriends/static/css/main.6ebf1c3d.chunk.css.map",
     "static/js/2.d8e4eb28.chunk.js.LICENSE.txt": "/botfriends/static/js/2.d8e4eb28.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.a50933a2.js",
     "static/js/2.d8e4eb28.chunk.js",
     "static/css/main.6ebf1c3d.chunk.css",
-    "static/js/main.505fe9f2.chunk.js"
+    "static/js/main.53ea2852.chunk.js"
   ]
 }
