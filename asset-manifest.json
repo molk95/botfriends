@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/botfriends/static/css/main.6c628bb2.chunk.css",
+    "main.css": "/botfriends/static/css/main.6ebf1c3d.chunk.css",
     "main.js": "/botfriends/static/js/main.505fe9f2.chunk.js",
     "main.js.map": "/botfriends/static/js/main.505fe9f2.chunk.js.map",
     "runtime-main.js": "/botfriends/static/js/runtime-main.a50933a2.js",
@@ -8,16 +8,16 @@
     "static/js/2.d8e4eb28.chunk.js": "/botfriends/static/js/2.d8e4eb28.chunk.js",
     "static/js/2.d8e4eb28.chunk.js.map": "/botfriends/static/js/2.d8e4eb28.chunk.js.map",
     "index.html": "/botfriends/index.html",
-    "precache-manifest.eea28625413589a5081e746768881152.js": "/botfriends/precache-manifest.eea28625413589a5081e746768881152.js",
+    "precache-manifest.556bb8a82f282cfec92157b0041c4380.js": "/botfriends/precache-manifest.556bb8a82f282cfec92157b0041c4380.js",
     "service-worker.js": "/botfriends/service-worker.js",
-    "static/css/main.6c628bb2.chunk.css.map": "/botfriends/static/css/main.6c628bb2.chunk.css.map",
+    "static/css/main.6ebf1c3d.chunk.css.map": "/botfriends/static/css/main.6ebf1c3d.chunk.css.map",
     "static/js/2.d8e4eb28.chunk.js.LICENSE.txt": "/botfriends/static/js/2.d8e4eb28.chunk.js.LICENSE.txt",
     "static/media/App.css": "/botfriends/static/media/SEGA.12a3db8b.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.a50933a2.js",
     "static/js/2.d8e4eb28.chunk.js",
-    "static/css/main.6c628bb2.chunk.css",
+    "static/css/main.6ebf1c3d.chunk.css",
     "static/js/main.505fe9f2.chunk.js"
   ]
 }
