@@ -24,7 +24,9 @@ h1 {
 }
 
 .filterBots{
-  font-size: .1vw;
+  padding: 10px;
+  font-size: .9vw;
+  font-weight: 700;
   color: #ffffff;
 }
 
