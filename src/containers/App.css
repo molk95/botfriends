@@ -13,59 +13,16 @@
   font-weight: normal;
   src: local("SEGA LOGO FONT"), url("SEGA.woff") format("woff");
 }
-body {
-  background-color: #2B5F00;
-}
-.title {
+
+h1 {
   font-family: "SEGA LOGO FONT";
   font-size: 4vw;
   font-weight: 900;
-  color: #112A46;
+  color: teal;
   padding: 30px;
 }
 
-.card {
-  background-color: #55a216;
-  border: 3px;
-  margin: 30px;
-  padding: 10px;
-  width: 300px;
-  box-shadow: 5px 10px 8px #888888;
-  border-radius: 15px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.card:hover{
-  transform: translateY(-2%);
-}
-.contact {
-  color: #112A46;
-}
 
-.CardComponent {
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-}
-
-.searchToolBox {
-  padding: 10px;
-}
-.searchTool {
-  padding: 12px 20px;
-  font-size: .8vw;
-  width: 400px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  background-color: rgba(85, 162, 22, 0.521);
-  color: #112A46;
-}
 .spinner {
   background-color: white;
   padding: 20rem;

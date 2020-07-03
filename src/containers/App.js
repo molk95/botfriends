@@ -33,8 +33,8 @@ class App extends Component {
      (
       <Loading />
     ) : (
-      <div className="container">
-        <h1 className="title">botFriends</h1>
+      <div className="tc">
+        <h1 className="f1">botFriends</h1>
         <FilterBots searchChange={onSearchChange} />
 
         <CardList

@@ -4,7 +4,7 @@ import { Card } from "./Card";
 
 export const CardList = ({ robotFriends }) => {
   return (
-    <div className="CardComponent">
+    <div>
       {robotFriends.map((user, i) => {
         return (
           <Card
