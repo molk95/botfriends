@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const FilterBots = ({searchChange,searchfield}) => {
+ const FilterBots = ({searchChange,searchfield}) => {
     return (
         <div className='pa2' >
             <label for='filter' className="filterBots" >Search</label>
@@ -8,3 +8,4 @@ export const FilterBots = ({searchChange,searchfield}) => {
         </div>
     )
 }
+export default FilterBots;

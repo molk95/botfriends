@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "./Card";
 
 
-export const CardList = ({ robotFriends }) => {
+ const CardList = ({ robotFriends }) => {
   return (
     <div>
       {robotFriends.map((user, i) => {
@@ -18,3 +18,4 @@ export const CardList = ({ robotFriends }) => {
     </div>
   );
 };
+export default CardList;
