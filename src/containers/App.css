@@ -19,21 +19,15 @@ h1 {
   font-size: 3vw;
   font-weight: 900;
   color: #ffffff;
-  margin: 0;
+  margin-bottom: 1%;
+ 
 }
 
 .filterBots {
   float: right;
-  padding: 0;
-  font-size: 1.5vw;
-  font-weight: 700;
-  color: #ffffff;
 }
 
-.header {
-  margin: 2%;
-  display: flex;
-  justify-content: space-between;
+.sub-header {
   align-items: center;
 }
 
@@ -47,7 +41,7 @@ h1 {
 }
 
 .searchtool {
-  width: 100%;
+  width: 19%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;

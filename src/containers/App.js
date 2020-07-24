@@ -37,13 +37,12 @@ class App extends Component {
       <div 
       className="tc"
       >
-        <div className='header' >
         <h1 
         className="f1"
         >botFriends</h1>
+  
         <FilterBots searchChange={onSearchChange} />
-
-        </div>
+      
         <CounterButton />
         <CardList
           robotFriends={robotFriends.filter((robot) => {
