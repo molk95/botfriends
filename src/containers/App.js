@@ -35,11 +35,11 @@ class App extends Component {
       <Loading />
     ) : (
       <div 
-      // className="tc"
+      className="tc"
       >
         <div className='header' >
         <h1 
-        // className="f1"
+        className="f1"
         >botFriends</h1>
         <FilterBots searchChange={onSearchChange} />
 

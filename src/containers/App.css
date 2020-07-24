@@ -14,26 +14,27 @@
   src: local("SEGA LOGO FONT"), url("SEGA.woff") format("woff");
 }
 
-
 h1 {
   font-family: "SEGA LOGO FONT";
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: 900;
   color: #ffffff;
-  padding: 30px;
+  margin: 0;
 }
 
-.filterBots{
-  padding: 0 15px;
+.filterBots {
+  float: right;
+  padding: 0;
   font-size: 1.5vw;
   font-weight: 700;
   color: #ffffff;
 }
- 
+
 .header {
-display: flex;
-justify-content: center;
-align-items: center;
+  margin: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .spinner {
@@ -41,11 +42,25 @@ align-items: center;
   padding: 20rem;
 }
 
-.loading{
+.filterbox {
+  padding-top: 0%;
+}
+
+.searchtool {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.loading {
   font-family: "SEGA LOGO FONT";
   font-size: 50px;
   font-weight: 900;
-  color: #19A974;
+  color: #19a974;
   padding: 0 30px;
   text-align: center;
 }
