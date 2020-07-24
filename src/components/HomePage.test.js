@@ -10,4 +10,3 @@ it("expect to render Card component", () => {
   expect(shallow(<HomePage store={mockStore} />)).toMatchSnapshot();
 });
 
-

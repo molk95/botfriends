@@ -29,6 +29,12 @@ h1 {
   font-weight: 700;
   color: #ffffff;
 }
+ 
+.header {
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
 .spinner {
   background-color: white;

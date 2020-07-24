@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { CardList } from "../components/CardList";
-import { FilterBots } from "../components/FilterBots";
+import CardList  from "../components/CardList";
+import  FilterBots  from "../components/FilterBots";
 import Loading from "../components/Loading";
 import "./App.css";
 
 import { setSearchField, requestRobots } from "../actions";
+import CounterButton from "../components/CounterButton";
 
 const mapStateToProps = (state) => {
   return {
@@ -33,9 +34,18 @@ class App extends Component {
      (
       <Loading />
     ) : (
-      <div className="tc">
-        <h1 className="f1">botFriends</h1>
+      <div 
+      // className="tc"
+      >
+        <div className='header' >
+        <h1 
+        // className="f1"
+        >botFriends</h1>
         <FilterBots searchChange={onSearchChange} />
+
+        </div>
+        {/* <CounterButton /> */}
+        
 
         <CardList
           robotFriends={robotFriends.filter((robot) => {
