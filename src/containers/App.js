@@ -44,9 +44,7 @@ class App extends Component {
         <FilterBots searchChange={onSearchChange} />
 
         </div>
-        {/* <CounterButton /> */}
-        
-
+        <CounterButton />
         <CardList
           robotFriends={robotFriends.filter((robot) => {
             return robot.name.toLowerCase().includes(searchField.toLowerCase());

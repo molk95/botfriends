@@ -14,6 +14,7 @@ export default class CounterButton extends Component {
   render() {
     return <div>
         <button
+        id='counter'
         color={this.props.color}
         onClick={
             () => this.setState(state => ({
