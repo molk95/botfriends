@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import CardList  from "../components/CardList";
-import  FilterBots  from "../components/FilterBots";
-import Loading from "../components/Loading";
-import "./App.css";
-
 import { setSearchField, requestRobots } from "../actions";
-import CounterButton from "../components/CounterButton";
+import HomePage from "../components/HomePage";
+import "./App.css";
 
 const mapStateToProps = (state) => {
   return {
@@ -20,37 +16,13 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     onSearchChange: (event) => dispatch(setSearchField(event.target.value)),
-    onRequestRobots: () => dispatch(requestRobots()) //action
+    onRequestRobots: () => dispatch(requestRobots()), //action
   };
 };
 
 class App extends Component {
-  componentDidMount() {
-    this.props.onRequestRobots();
-  }
   render() {
-    const { searchField, onSearchChange, robotFriends, isPending } = this.props;
-    return !isPending ? 
-     (
-      <Loading />
-    ) : (
-      <div 
-      className="tc"
-      >
-        <h1 
-        className="f1"
-        >botFriends</h1>
-  
-        <FilterBots searchChange={onSearchChange} />
-      
-        <CounterButton />
-        <CardList
-          robotFriends={robotFriends.filter((robot) => {
-            return robot.name.toLowerCase().includes(searchField.toLowerCase());
-          })}
-        />
-      </div>
-    );
+    return <HomePage {...this.props} />;
   }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(App);
