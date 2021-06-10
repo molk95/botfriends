@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-import CardList from "../components/CardList";
-import FilterBots from "../components/FilterBots";
-import Loading from "../components/Loading";
-import "./HomePage.css";
+import CardList from "../js/CardList";
+import FilterBots from "./FilterBots";
+import Loading from "../js/Loading";
+import "../css/HomePage.css";
 
 
 

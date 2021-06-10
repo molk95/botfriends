@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { setSearchField, requestRobots } from "../actions";
-import HomePage from "../components/HomePage";
+import HomePage from "../components/js/HomePage";
 import "./App.css";
 
 const mapStateToProps = (state) => {
